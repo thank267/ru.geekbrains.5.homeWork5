@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS products;
+CREATE TABLE IF NOT EXISTS products (id bigserial, cost int NOT NULL , title VARCHAR(255) NOT NULL, PRIMARY KEY (id));
+INSERT INTO products (title, cost) VALUES ( 'Apple', 10 );
+INSERT INTO products (title, cost) VALUES ( 'Banana', 20 );
+INSERT INTO products (title, cost) VALUES ( 'Watermelon', 8 );
+INSERT INTO products (title, cost) VALUES ( 'Orange', 12 );
+INSERT INTO products (title, cost) VALUES ( 'Lemon', 13 );
+INSERT INTO products (title, cost) VALUES ( 'Dragon fruit', 20 );
+INSERT INTO products (title, cost) VALUES ( 'Blueberries', 15 );
+INSERT INTO products (title, cost) VALUES ( 'Raspberry', 21 );
+INSERT INTO products (title, cost) VALUES ( 'Strawberry', 18 );
+INSERT INTO products (title, cost) VALUES ( 'Blackberry', 17 );
